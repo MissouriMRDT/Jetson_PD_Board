@@ -5,6 +5,145 @@
 	(uuid "fbd9c71c-f200-4aab-a303-9f269bc9de13")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -396,8 +535,7 @@
 						(type solid)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type none)
 					)
 				)
 				(pin power_in line
@@ -3940,8 +4078,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f5770a8-d9d2-4d49-b3f5-1feef9906b1d")
-		(property "Reference" "U2"
+		(uuid "26e725e9-1c3d-4fc0-8620-8896068ab4cb")
+		(property "Reference" "U1"
 			(at 118.9833 77.47 0)
 			(effects
 				(font
@@ -3986,82 +4124,82 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "013da284-9223-4c93-972c-c3af20aaf70f")
-		)
-		(pin "24"
-			(uuid "5756bb7d-5957-4782-b9c0-18d93c83018a")
-		)
 		(pin "15"
-			(uuid "1cfbfd4d-1f9a-44fc-989a-f674c4f7dbfa")
-		)
-		(pin "8"
-			(uuid "a92cf731-f8d0-4a14-b159-8eca9307c450")
-		)
-		(pin "13"
-			(uuid "bb2e1334-148b-44f6-b3fb-7f8bf77bbe7b")
-		)
-		(pin "2"
-			(uuid "a905faff-4058-422a-8f00-a9d0520ff712")
-		)
-		(pin "23"
-			(uuid "c50cbd0a-6e40-47ff-9731-b877d7926831")
-		)
-		(pin "6"
-			(uuid "69608948-6ab7-45e2-8f91-8f5a64cd3af3")
-		)
-		(pin "1"
-			(uuid "4003c1fd-ae55-4bed-bf1c-4f27f0c3cd67")
-		)
-		(pin "10"
-			(uuid "072ca9d1-be42-42ac-9544-734ed02224ca")
+			(uuid "c93bd523-f765-41c9-845e-219ec1ae2b99")
 		)
 		(pin "7"
-			(uuid "1d54664e-09c4-4803-93af-ff1684f4d99f")
-		)
-		(pin "19"
-			(uuid "a0682a43-d84d-46f1-bb1c-11ddcc493712")
-		)
-		(pin "5"
-			(uuid "9b4304be-bf2a-4e03-b9ff-044433cb9cf3")
-		)
-		(pin "20"
-			(uuid "5ac1a7f5-e5f2-484b-a9b5-8988c715cd79")
+			(uuid "d2cfdd7d-596c-4a08-9e87-55db222f7361")
 		)
 		(pin "22"
-			(uuid "bb1bda35-d447-49fb-b98d-6b4900db4262")
-		)
-		(pin "9"
-			(uuid "637dc940-4112-4c1c-91b0-61638177389c")
-		)
-		(pin "3"
-			(uuid "a07aa13b-f184-475c-9f5a-229cb11ef74b")
-		)
-		(pin "11"
-			(uuid "042acc2b-ea84-410c-b3de-665c90160c39")
+			(uuid "255cf580-70aa-4550-824c-65b1fd4443b0")
 		)
 		(pin "21"
-			(uuid "d86dc481-f7ef-48f3-8bae-c985610a48a7")
+			(uuid "ca304506-4419-4764-9cd1-ad6094196ac2")
+		)
+		(pin "9"
+			(uuid "0b295665-1657-4a24-814e-76155c26f0dc")
+		)
+		(pin "10"
+			(uuid "51abfd81-5e9d-40d0-b450-b093f3553b23")
+		)
+		(pin "1"
+			(uuid "28369ff5-10ee-477d-ae04-3de6b3419271")
+		)
+		(pin "6"
+			(uuid "a3960c7f-fcf5-4d54-a2a0-51cd2e4ea853")
+		)
+		(pin "11"
+			(uuid "040b6166-01a2-4514-b3a9-b12ca4d11d3e")
+		)
+		(pin "8"
+			(uuid "0f9e5be7-3385-437d-be48-f9fa6a10be36")
+		)
+		(pin "13"
+			(uuid "cf5d26e3-ddd5-452e-91cb-446183033e81")
+		)
+		(pin "19"
+			(uuid "1bb227f7-c67e-4a0b-82d0-c110bb9b4c75")
+		)
+		(pin "5"
+			(uuid "79196ccf-3ef3-47b0-8edf-fa7e2c85a4c1")
+		)
+		(pin "20"
+			(uuid "16e49ef1-ee14-43eb-a30f-687afa3382ae")
+		)
+		(pin "4"
+			(uuid "bb59ecfb-df46-4d24-a8d0-dc391095bee8")
+		)
+		(pin "2"
+			(uuid "b864cedb-e5ff-4ec1-afc4-778da04b8975")
 		)
 		(pin "18"
-			(uuid "08bc51e6-4075-4ee4-86f3-3591f8632651")
+			(uuid "2c70fe33-4ea9-4ed4-8b1f-f3044faa3985")
+		)
+		(pin "3"
+			(uuid "eef731cb-12a6-4eef-a095-2acbf0a08474")
+		)
+		(pin "23"
+			(uuid "c99c56b1-04c6-4677-86a3-d8d733a49343")
+		)
+		(pin "24"
+			(uuid "ebd78e81-877a-4835-8ac2-7f284976586d")
 		)
 		(pin "17"
-			(uuid "7844a319-22df-4ccd-a71f-09d69909a559")
+			(uuid "5597e96e-472c-4111-97fb-4298e8e93277")
 		)
 		(pin "16"
-			(uuid "b8d1da5d-03a1-4a40-bf93-5cf8ad1adb9c")
+			(uuid "dbe5741c-e054-4eba-bad2-8ebb52f33923")
 		)
 		(pin "14"
-			(uuid "cfc68426-2f74-4062-834c-7f616ccf7eb1")
+			(uuid "8ed7d44a-88c2-4419-847d-b628d9585c1f")
 		)
 		(pin "12"
-			(uuid "14db9696-93c9-4c43-bec8-679f054c93a8")
+			(uuid "17d4e1b8-8b5d-4025-9293-fef363f5c8cd")
 		)
 		(instances
 			(project ""
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "66k"
 			(at 53.34 113.0299 0)
 			(effects
 				(font
@@ -4155,7 +4293,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "13uH"
 			(at 170.18 76.2 90)
 			(effects
 				(font
@@ -4172,7 +4310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7447798131/2268616"
 			(at 170.18 78.74 0)
 			(effects
 				(font
@@ -4183,6 +4321,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "7447798131"
+			(at 170.18 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,6 +4413,76 @@
 			(project ""
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 39.37 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8e2e8cd-a12b-417c-8753-a6c592e5de15")
+		(property "Reference" "C1"
+			(at 43.18 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 43.18 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 40.3352 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/C2012X5R1V226M125AC/3951664"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e8663a-65d0-4bb8-b629-863bdacc19bf")
+		)
+		(pin "2"
+			(uuid "8d5a8bd0-06fb-428d-8498-163d72a63bb1")
+		)
+		(instances
+			(project ""
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(reference "C1")
 					(unit 1)
 				)
 			)
