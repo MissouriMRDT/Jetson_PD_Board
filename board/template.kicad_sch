@@ -5698,7 +5698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/NTCS0603E3202JLT/2230805"
 			(at 68.58 111.76 0)
 			(effects
 				(font
