@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "PD_Control_Hardware")(type "KiCad")(uri "${KIPRJMOD}/Jetson_PD_Board/lib/Symbols/PD_Control_Hardware.kicad_sym")(options "")(descr ""))
+  (lib (name "PD_Control_Hardware")(type "KiCad")(uri "${KIPRJMOD}/../lib/Symbols/PD_Control_Hardware.kicad_sym")(options "")(descr ""))
 )
