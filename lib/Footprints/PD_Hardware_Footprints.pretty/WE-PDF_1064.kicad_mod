@@ -1,33 +1,211 @@
-
-(footprint WE-PDF_1064 (layer F.Cu) (tedit 698BE464)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at -0.14 -6.735 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value WE-PDF_1064 (at 3.085 6.495 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 2 smd rect (at 4.1 0.0) (size 2.4 3.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 1 smd rect (at -4.1 0.0) (size 2.4 3.4) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -5.1 -5.1) (end -5.1 5.1) (layer F.Fab) (width 0.1))
-  (fp_line (start 5.1 -4.6) (end 5.1 5.1) (layer F.Fab) (width 0.1))
-  (fp_line (start 4.6 -5.1) (end -5.1 -5.1) (layer F.Fab) (width 0.1))
-  (fp_line (start 5.1 5.1) (end -5.1 5.1) (layer F.Fab) (width 0.1))
-  (fp_line (start 4.6 -5.1) (end 5.1 -4.6) (layer F.Fab) (width 0.1))
-  (fp_line (start -5.2 -2.1) (end -5.2 -5.2) (layer F.SilkS) (width 0.2))
-  (fp_line (start -5.2 -5.2) (end 4.7 -5.2) (layer F.SilkS) (width 0.2))
-  (fp_line (start 5.2 -4.7) (end 5.2 -2.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start 4.7 -5.2) (end 5.2 -4.7) (layer F.SilkS) (width 0.2))
-  (fp_line (start -5.2 2.1) (end -5.2 5.2) (layer F.SilkS) (width 0.2))
-  (fp_line (start -5.2 5.2) (end 5.2 5.2) (layer F.SilkS) (width 0.2))
-  (fp_line (start 5.2 5.2) (end 5.2 2.1) (layer F.SilkS) (width 0.2))
-  (fp_poly
-    (pts
-      (xy 5.5 -5.4)
-      (xy 5.5 5.4)
-      (xy -5.5 5.4)
-      (xy -5.5 -5.4)
-    ) (layer F.CrtYd) (width 0.1)
-  )
+(footprint "WE-PDF_1064"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.14 -6.735 0)
+		(layer "F.SilkS")
+		(uuid "afe0d1a4-f155-4caa-a0ee-148cb4a3ba76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-PDF_1064"
+		(at 3.085 6.495 0)
+		(layer "F.Fab")
+		(uuid "006fb8a3-9ecb-4631-adcb-58c767785573")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1be1bf94-5fed-4e4c-acc9-ca724073040d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c8eb4a0-ad98-4403-8752-ad42829a48f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.2 -5.2)
+		(end 4.7 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea0b1354-6f61-4ef1-8263-4be8162ce86c")
+	)
+	(fp_line
+		(start -5.2 -2.1)
+		(end -5.2 -5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56f0346f-1268-4fbf-8f58-717a8d758953")
+	)
+	(fp_line
+		(start -5.2 2.1)
+		(end -5.2 5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6689c06-d882-4399-ac08-60988353650e")
+	)
+	(fp_line
+		(start -5.2 5.2)
+		(end 5.2 5.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e10ded59-b018-476c-9a7f-293955717b7e")
+	)
+	(fp_line
+		(start 4.7 -5.2)
+		(end 5.2 -4.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5498a2e-e31e-4dd4-b81b-85f0d664deac")
+	)
+	(fp_line
+		(start 5.2 -4.7)
+		(end 5.2 -2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ddb9e0d-54b3-4280-979f-87d5529cb727")
+	)
+	(fp_line
+		(start 5.2 5.2)
+		(end 5.2 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac3ff599-5ae9-46e7-b319-b811a6daf7b2")
+	)
+	(fp_poly
+		(pts
+			(xy 5.5 -5.4) (xy 5.5 5.4) (xy -5.5 5.4) (xy -5.5 -5.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "114f045f-590c-41c9-bfc9-6d2999e6dd20")
+	)
+	(fp_line
+		(start -5.1 -5.1)
+		(end -5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d35bd81-1f23-48b5-af9a-d4a909a037df")
+	)
+	(fp_line
+		(start 4.6 -5.1)
+		(end -5.1 -5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08f8702c-eb92-4be6-8907-dfea183e636d")
+	)
+	(fp_line
+		(start 4.6 -5.1)
+		(end 5.1 -4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8699a89-f4c0-46e9-bee5-87c11ad03ee8")
+	)
+	(fp_line
+		(start 5.1 -4.6)
+		(end 5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f0d285b-4f6a-4db3-af03-8aa5a1e7abee")
+	)
+	(fp_line
+		(start 5.1 5.1)
+		(end -5.1 5.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fad3b477-c3f0-47b9-8175-59172da13117")
+	)
+	(pad "1" smd rect
+		(at -4.1 0)
+		(size 2.4 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "4180f203-3809-41b3-be10-feee3fb319e0")
+	)
+	(pad "2" smd rect
+		(at 4.1 0)
+		(size 2.4 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b51fce32-5b22-4415-87a8-c5c67068c3db")
+	)
+	(embedded_fonts no)
+	(model "C:/GitHub/Jetson_PD_Board/lib/3D Models/STP_WE-PDF-1064_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

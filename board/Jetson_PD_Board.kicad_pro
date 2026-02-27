@@ -247,7 +247,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "template"
+      "template",
+      "PD_Hardware_Footprints"
     ],
     "pinned_symbol_libs": [
       "template"
