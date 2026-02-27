@@ -295,7 +295,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin output line
 				(at 3.81 16.51 270)
 				(length 2.54)
 				(name "VDRV"
