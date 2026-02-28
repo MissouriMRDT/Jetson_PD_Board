@@ -197,7 +197,7 @@
 		(uuid "b51fce32-5b22-4415-87a8-c5c67068c3db")
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/Jetson_PD_Board/lib/3D Models/STP_WE-PDF-1064_rev1.stp"
+	(model "${KIPRJMOD}/../lib/3D Models/STP_WE-PDF-1064_rev1.stp"
 		(offset
 			(xyz 0 0 0)
 		)
