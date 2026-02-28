@@ -420,7 +420,7 @@
 		(uuid "3fd1bfd4-0b91-4de7-9769-31e8751b44fb")
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/Jetson_PD_Board/lib/3D Models/X424_3D.stp"
+	(model "${KIPRJMOD}/../lib/3D Models/X424_3D.stp"
 		(offset
 			(xyz 0 0 0)
 		)

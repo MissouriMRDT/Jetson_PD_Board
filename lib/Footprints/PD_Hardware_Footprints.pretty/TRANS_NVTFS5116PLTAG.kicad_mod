@@ -398,7 +398,7 @@
 		(uuid "d36905ee-a764-456d-ae60-b78a0fccea6f")
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/Jetson_PD_Board/lib/3D Models/NTTFS5C673NLTAG.step"
+	(model "${KIPRJMOD}/../lib/3D Models/NTTFS5C673NLTAG.step"
 		(offset
 			(xyz 0 0 0)
 		)

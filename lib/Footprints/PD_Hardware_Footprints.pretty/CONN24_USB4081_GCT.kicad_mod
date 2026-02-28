@@ -642,7 +642,7 @@
 		(uuid "a246faa1-a3a0-40d4-a0cd-4452cada5916")
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/Jetson_PD_Board/lib/3D Models/usb4081-03-a.stp"
+	(model "${KIPRJMOD}/../lib/3D Models/usb4081-03-a.stp"
 		(offset
 			(xyz 0 -4 0)
 		)

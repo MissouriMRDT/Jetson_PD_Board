@@ -436,7 +436,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "C:/GitHub/Jetson_PD_Board/lib/3D Models/CAP_RHAHS_8X8P7_NCH.step"
+	(model "${KIPRJMOD}/../lib/3D Models/CAP_RHAHS_8X8P7_NCH.step"
 		(offset
 			(xyz 0 0 0)
 		)
