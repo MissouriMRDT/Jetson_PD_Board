@@ -224,6 +224,24 @@
 				)
 			)
 			(pin power_in line
+				(at -7.62 16.51 270)
+				(length 2.54)
+				(name "PAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at -7.62 -16.51 90)
 				(length 2.54)
 				(name "GND"
@@ -242,7 +260,7 @@
 				)
 			)
 			(pin power_out line
-				(at -3.81 16.51 270)
+				(at -2.54 16.51 270)
 				(length 2.54)
 				(name "V5V"
 					(effects
@@ -295,24 +313,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 3.81 16.51 270)
-				(length 2.54)
-				(name "VDRV"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 5.08 -16.51 90)
 				(length 2.54)
@@ -324,6 +324,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 16.51 270)
+				(length 2.54)
+				(name "VDRV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
 					(effects
 						(font
 							(size 1.27 1.27)
