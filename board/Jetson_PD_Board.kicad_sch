@@ -7235,6 +7235,16 @@
 		)
 		(uuid "fdcb80c6-9d4c-4562-923b-c3a441cedea2")
 	)
+	(label "Switching_Node"
+		(at 130.81 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4308243f-af48-4c5f-8b95-f71ebf13667d")
+	)
 	(global_label "CC1"
 		(shape bidirectional)
 		(at 251.46 96.52 180)
