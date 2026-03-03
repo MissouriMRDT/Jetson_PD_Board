@@ -6081,6 +6081,12 @@
 		(uuid "65255bc7-5ae5-4d41-a860-0b15a6e7cdc1")
 	)
 	(junction
+		(at 101.6 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fafdccc-70ed-496b-8cf7-dd54cecd72dc")
+	)
+	(junction
 		(at 40.64 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6892,7 +6898,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 83.82) (xy 101.6 87.63)
+			(xy 101.6 83.82) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6909,6 +6915,16 @@
 			(type default)
 		)
 		(uuid "5368aa9e-2b03-42da-81b1-e7f6ce7ee285")
+	)
+	(wire
+		(pts
+			(xy 101.6 86.36) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5457f429-0a48-4d84-817c-852e0c213e09")
 	)
 	(wire
 		(pts
@@ -7592,6 +7608,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 76.2) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a96f5ef5-a361-4662-a869-98e01ae7d5dd")
+	)
+	(wire
+		(pts
 			(xy 189.23 109.22) (xy 189.23 111.76)
 		)
 		(stroke
@@ -8079,6 +8105,16 @@
 			(type default)
 		)
 		(uuid "eeef1640-c7e4-4853-a5ff-eec224a2063e")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 101.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e58122-76f5-4621-b253-60779b9253ea")
 	)
 	(wire
 		(pts
@@ -9993,6 +10029,71 @@
 			(project ""
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 106.68 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c7c86e5-4a62-4b40-ad79-ef74eefaa373")
+		(property "Reference" "#PWR029"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V5V"
+			(at 106.68 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc6a8a18-d4c2-49d0-bcb1-17d38d32a77e")
+		)
+		(instances
+			(project "Jetson_PD_Board"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12933,7 +13034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_{out}"
+		(property "Value" "V5V"
 			(at 66.04 110.236 0)
 			(effects
 				(font
