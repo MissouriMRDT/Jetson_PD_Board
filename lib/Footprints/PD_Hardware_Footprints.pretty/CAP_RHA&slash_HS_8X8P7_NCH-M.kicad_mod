@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "RHS1V101MCN1GS ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at -0.25 5.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "ae43bdd3-3702-4647-803f-f438c8f80921")
@@ -338,102 +338,6 @@
 		(size 3.7084 1.6002)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "96df13a3-77b3-4497-8786-94467075d859")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "b58aa277-30ea-4e2e-8dd2-2d401d5e1db6")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -4.1021 -4.1021) (xy 4.1021 -4.1021) (xy 4.1021 -0.8509) (xy -4.1021 -0.8509)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "0ad843cc-6081-4133-8dca-24da00c097f7")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -4.1021 0.8509) (xy 4.1021 0.8509) (xy 4.1021 4.1021) (xy -4.1021 4.1021)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "2df72285-bf47-46ce-9211-9eec4703c26e")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy -1.5494 -0.8509) (xy 1.5494 -0.8509) (xy 1.5494 0.8509) (xy -1.5494 0.8509)
-			)
-		)
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../lib/3D Models/CAP_RHAHS_8X8P7_NCH.step"

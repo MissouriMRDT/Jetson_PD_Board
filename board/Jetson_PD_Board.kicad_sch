@@ -8246,6 +8246,16 @@
 		)
 		(uuid "b44b4391-16c6-48e3-8941-ca8cb7481d31")
 	)
+	(label "Buck_{out}"
+		(at 162.56 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd30566a-eaf4-48fb-b08f-20249031a7aa")
+	)
 	(label "DN"
 		(at 168.91 139.7 0)
 		(effects
