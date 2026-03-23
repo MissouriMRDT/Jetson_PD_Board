@@ -60,23 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|120704002|110560618|5cd3f529-206d-492e-810c-69b6d7acbb7c|9966eb0e-f43b-4689-bc4a-6fa017e4bcb8",
-          ""
-        ],
-        [
-          "clearance|126795998|109849418|772776cd-50ae-41ec-894c-595d36a3158f|7d07a354-d173-4b7b-81c8-d0dbc9c83a91",
-          ""
-        ],
-        [
-          "clearance|126795998|110560618|772776cd-50ae-41ec-894c-595d36a3158f|29dde203-6780-48c8-837b-1d00d031a7d6",
-          ""
-        ],
-        [
           "courtyards_overlap|120630000|91844100|5e919f10-67f3-4435-a132-3788b0d3a33f|d30d9ac7-4746-4805-b0bb-71abe05ff2c6",
-          ""
-        ],
-        [
-          "silk_edge_clearance|119152600|114935000|a8b0238e-9ab8-4f9c-b9ad-e7187282916d|88424288-b60f-4e6e-8156-536115777cd8",
           ""
         ],
         [
@@ -85,18 +69,6 @@
         ],
         [
           "silk_edge_clearance|127914900|69250000|688fc27f-398e-4021-a98b-3d840047777b|f3abf06b-362c-494d-bfdd-734cb22c4783",
-          ""
-        ],
-        [
-          "silk_edge_clearance|128347400|114935000|a8b0238e-9ab8-4f9c-b9ad-e7187282916d|d4c42c04-ccd8-4e23-abbe-9c0b28955bab",
-          ""
-        ],
-        [
-          "silk_over_copper|118898197|108803483|eaabc2aa-bde1-4963-b08d-05a46a7d1588|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|123441468|110068590|7eb2e147-88ff-4606-a906-ffda0484399f|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -166,7 +138,7 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -228,7 +200,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.254,
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -567,7 +541,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Jetson_PD_Board_Gerbs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
